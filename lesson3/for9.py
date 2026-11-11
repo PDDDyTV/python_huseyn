@@ -1,0 +1,8 @@
+a = int(input("введите a"))
+b = int(input("введите b"))
+s = int()
+s = 1
+for i in range(a, b + 1):
+    s = s + i * i
+
+print(s)
